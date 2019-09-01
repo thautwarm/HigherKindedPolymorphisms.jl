@@ -1,5 +1,6 @@
 module HigherKindedPolymorphisms
 
-greet() = print("Hello World!")
+# abstract type App{A, B} end
+
 
 end # module
