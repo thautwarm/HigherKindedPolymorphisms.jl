@@ -11,6 +11,8 @@ Also, without structural function types, some advanced
 polymorhisms might not be that useful, unless you feel okay
 to annotate functions here and there.
 
+I made this for using [tagless-final style](http://okmij.org/ftp/tagless-final/index.html) in Julia.
+
 Usage
 =======
 
