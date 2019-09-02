@@ -3,6 +3,10 @@ uuid = "4c64642f-07c9-4067-a251-dd4c0eb8b6f5"
 authors = ["thautwarm"]
 version = "0.1.0"
 
+[deps]
+CanonicalTraits = "a603d957-0e48-4f86-8fbd-0b7bc66df689"
+MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
+
 [compat]
 julia = "1"
 
