@@ -27,7 +27,7 @@ using CanonicalTraits
 import FunctionWrappers: FunctionWrapper
 
 Fn{A, B} = FunctionWrapper{B, Tuple{A}}
-@trait Functor{F} begin
+@typeclass Functor{F} begin
     fmap :: [Fn{A, B}, App{F, A}] where {A, B} => App{F, B}
 end
 
