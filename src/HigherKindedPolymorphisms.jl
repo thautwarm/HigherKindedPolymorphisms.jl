@@ -15,7 +15,7 @@ struct App{Cons, K₀}
     injected :: Any
 end
 
-@trait Higher{Cons, K₀, K₁} where {
+@typeclass Higher{Cons, K₀, K₁} where {
     Cons=type_constructor_from_hkt(K₁),
     K₀=type_argument_from_hkt(K₁),
     K₁=type_app(Cons, K₀)
