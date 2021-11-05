@@ -36,7 +36,7 @@ end
         B[f(e) for e in prj(a)] |> inj
 end
 
-f = Fn{Int, String)(string)
+f = Fn{Int, String}(string)
 a = inj([1, 2, 3])
 fmap(f, a) |> prj
 
